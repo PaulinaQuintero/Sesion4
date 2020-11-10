@@ -1,24 +1,12 @@
-.container {
-  display: flex;
-  /* flex-wrap: wrap-reverse; */
-  /* flex-direction: ; */
-  /* flex-flow:  <flex-direcion>  <flex-wrap>; atajo */
-  /* justify-content: flex-end; */
-  /* align items en el eje secunsario */
-  /* align-items: flex-end; */
-  /* flex-flow: row wrap; */
-  /* align-content: center; */
-  /* justify-content: flex-end; */
-  justify-content: space-around;
-  width: 400px;
-  height: 400px;
-  background-color: #0051ff;
+.features {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: blueviolet;
 }
 
-.item {
-  background-color: rgb(255, 0, 170);
-  /* Capacidad dividida entre 6 */
-  width: 40px;
-  height: 50px;
+article{
+  background-color: cadetblue;
+  margin: 10px;
+  width: 40%;
+  height: 70px;
 }
-  
